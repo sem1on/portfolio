@@ -30,16 +30,10 @@
                     <ul class="nav__list grid">
 
                         <li class="nav__item">
-                            <a href="#home" class="nav__link">
+                            <a href="#home" class="nav__link active-link">
                                 <i class="ri-home-smile-line"></i> Home
                             </a>
                         </li>
-                        
-                        <!-- <li class="nav__item">
-                            <a href="#about" class="nav__link">
-                                <i class="ri-open-arm-line"></i> About
-                            </a>
-                        </li> -->
 
                         <li class="nav__item">
                             <a href="#skills" class="nav__link">
@@ -68,7 +62,7 @@
                 </div>
 
                 <div class="nav__buttons"> 
-                    <!-- <i class="ri-moon-line change-theme" id="theme-button"></i> -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
                     <div class="nav__toggle" id="nav-toggle">
                         <i class="ri-menu-4-line"></i>
                     </div>
@@ -84,7 +78,7 @@
                 <div class="home__container container grid section__border">
                     <div class="home__data grid">
                         
-                        <h1 class="home__title">
+                        <h1 class="home__title-min">
                             Hi, я Семен <br>
                             Frontend React Developer <br>
                             Из Санкт-Петербурга <br>
@@ -114,6 +108,11 @@
                     </div>
 
                     <div class="home__info">
+                        <h1 class="home__title">
+                            Hi, я Семен <br>
+                            Frontend React Developer <br>
+                            Из Санкт-Петербурга <br>
+                        </h1>
                         <div>
                             <h3 class="home__info-title">
                                 ABOUT
@@ -121,15 +120,6 @@
 
                             <p class="home__info-description">
                                 Имею опыт в разработке SPA на ReactJS. Продолжаю активно осваивать frontend-разработку, изучать новые для себя технологии и применять их на практике. Хочу стать специалистом высокого уровня! Могу справиться с любой поставленной задачей. Я быстро учусь, ответственно подхожу к работе.
-                            </p>
-                        </div>
-                        <div>
-                            <h3 class="home__info-title">
-                                CONTACT
-                            </h3>
-
-                            <p class="home__info-description">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sunt odit atque magni nihil tempore nostrum hic dolorum laudantium nemo, voluptatum maiores quam perspiciatis. Voluptatum eligendi aliquid quae ex voluptates.
                             </p>
                         </div>
                     </div>
@@ -192,16 +182,6 @@
                 </div>
             </section>
 
-            <!--==================== QUALIFICATION ====================-->
-            <!-- <section class="qualification section" id="qualification">
-                
-            </section> -->
-
-            <!--==================== SERVICES ====================-->
-            <!-- <section class="services section" id="services">
-                
-            </section> -->
-
             <!--==================== PROJECTS ====================-->
             <section class="projects section" id="projects">
                 <h2 class="section__title">Projects</h2>
@@ -217,10 +197,25 @@
                                     <span class="prjects__subtitle"></span>
                                     <h1 class="projects__title">Fitness App</h1>
 
-                                    <a href="" class="projects__button">
+                                    <a href="https://github.com/sem1on/fitnes-app" target="_blank" class="projects__button">
                                         Code<i class="ri-git-repository-line"></i>
                                     </a>
-                                    <a href="" class="projects__button">
+                                    <a href="https://63065ac25e0b62093f0faa98--sensational-sorbet-0efa2a.netlify.app/" target="_blank" class="projects__button">
+                                        Demo<i class="ri-file-code-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/img/3.JPG" alt="project image" class="projects__img">
+                                <div>
+                                    <span class="prjects__subtitle"></span>
+                                    <h1 class="projects__title">YouTube clone</h1>
+
+                                    <a href="https://github.com/sem1on/youTube_clone" target="_blank" class="projects__button">
+                                        Code<i class="ri-git-repository-line"></i>
+                                    </a>
+                                    <a href="https://fastidious-kelpie-ca81c9.netlify.app/" target="_blank" class="projects__button">
                                         Demo<i class="ri-file-code-line"></i>
                                     </a>
                                 </div>
@@ -233,29 +228,16 @@
                                     
                                     <h1 class="projects__title">Place around you</h1>
 
-                                    <a href="" class="projects__button">
+                                    <a href="https://github.com/sem1on/travel-react" target="_blank" class="projects__button">
                                         Code<i class="ri-git-repository-line"></i>
                                     </a>
-                                    <a href="" class="projects__button">
+                                    <a href="https://preeminent-mandazi-2a559d.netlify.app/" target="_blank" class="projects__button">
                                         Demo<i class="ri-file-code-line"></i>
                                     </a>
                                 </div>
                             </div>
 
-                            <div class="projects__content swiper-slide">
-                                <img src="assets/img/3.JPG" alt="project image" class="projects__img">
-                                <div>
-                                    <span class="prjects__subtitle"></span>
-                                    <h1 class="projects__title">YouTube clone</h1>
-
-                                    <a href="" class="projects__button">
-                                        Code<i class="ri-git-repository-line"></i>
-                                    </a>
-                                    <a href="" class="projects__button">
-                                        Demo<i class="ri-file-code-line"></i>
-                                    </a>
-                                </div>
-                            </div>
+                            
 
                             <div class="projects__content swiper-slide">
                                 <img src="assets/img/2.JPG" alt="project image" class="projects__img">
@@ -263,10 +245,10 @@
                                     <span class="prjects__subtitle"></span>
                                     <h1 class="projects__title">Kanban desk</h1>
 
-                                    <a href="" class="projects__button">
+                                    <a href="https://github.com/sem1on/kanban-clone" target="_blank" class="projects__button">
                                         Code<i class="ri-git-repository-line"></i>
                                     </a>
-                                    <a href="" class="projects__button">
+                                    <a href="https://resilient-pithivier-216b51.netlify.app/" target="_blank" class="projects__button">
                                         Demo<i class="ri-file-code-line"></i>
                                     </a>
                                 </div>
@@ -284,11 +266,6 @@
                 </div>
             </section>
 
-            <!--==================== TESTIMONIAL ====================-->
-            <!-- <section class="testimonial section">
-                
-            </section> -->
-
             <!--==================== CONTACT ====================-->
             <section class="contact section" id="contact">
                 <h2 class="section__title">Contacts</h2>
@@ -304,14 +281,14 @@
                         <div class="contact__data">
                             <span class="contact__data-title">Whats App</span>
                             <span class="contact__data-info">+7 950 224 79 97 </span>
-                            <a href="" class="contact__button">
+                            <a href="https://wa.me/79502247997" target="_blank" class="contact__button">
                                 Write me <i class="ri-arrow-right-line"></i>
                             </a>
                         </div>
                         <div class="contact__data">
                             <span class="contact__data-title">Telegram</span>
                             <span class="contact__data-info">@sem1on</span>
-                            <a href="" class="contact__button">
+                            <a href="https://t.me/sem1on" target="_blank" class="contact__button">
                                 Write me <i class="ri-arrow-right-line"></i>
                             </a>
                         </div>
@@ -331,7 +308,7 @@
                         <a href="#home" class="footer__link">Home</a>
                     </li>
                     <li>
-                        <a href="#kills" class="footer__link">Skills</a>
+                        <a href="#skills" class="footer__link">Skills</a>
                     </li>
                     <li>
                         <a href="#projects" class="footer__link">Projects</a>
@@ -356,25 +333,21 @@
                     &#169; Sem1on Gorlov
                 </span>
 
-
              </div>
 
-             
-             
         </footer>
 
 
         <!--========== SCROLL UP ==========-->
-        
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line"></i>
+        </a>
 
         <!--=============== SCROLLREVEAL ===============-->
-        <script src=""></script>
+        <script src="assets/js/scrollreveal.min.js"></script>
 
         <!--=============== SWIPER JS ===============-->
         <script src="assets/js/swiper-bundle.min.js"></script>
-        
-        <!--=============== EMAIL JS ===============-->
-        
 
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>

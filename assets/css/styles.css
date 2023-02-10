@@ -66,7 +66,8 @@ html {
 }
 
 body {
-  font-family: var(--body-font);
+  /* font-family: var(--body-font); */
+  font-family: var(--title-font);
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
@@ -246,7 +247,7 @@ body.dark-theme {
 }
 
 .nav__list {
-    grid-template-columns: repeat(4, max-content);
+    grid-template-columns: repeat(2, max-content);
     justify-content: center;
     gap: 2rem 3rem;
     
@@ -416,6 +417,22 @@ body.dark-theme {
     gap: 2.5rem 2rem;
 }
 
+.skills__info-title {
+    font-family: var(--body-font);
+    font-weight: 400;
+    font-size: var(--smaller-font-size);
+    color: var(--text-color-light);
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.skills__info-description {
+    font-family: var(--title-font);
+    color: var(--title-color);
+    text-align: left;
+}
+
 .skills__data {
     justify-content: center;
     text-align: center;
@@ -477,6 +494,7 @@ body.dark-theme {
 
 .projects__img {
     width: 250px;
+    height: 125px;
     border-radius: .75rem;
     margin-bottom: 1.25rem;
 }

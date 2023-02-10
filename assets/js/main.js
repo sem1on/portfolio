@@ -132,7 +132,9 @@ const sr = ScrollReveal ({
 
 sr.reveal('.home__data');
 sr.reveal(`.home__info div`, {delay: 600, origin: 'bottom', interval: 100});
-sr.reveal(`.skills__content`, {origin: 'left'});
+sr.reveal(`.skills__info`, {origin: 'left'});
+sr.reveal(`.skills__info-title`, {origin: 'right'});
+sr.reveal(`.skills__info-description`, {origin: 'right'});
 sr.reveal(`.home__title`, {origin: 'left'});
 sr.reveal(`.contact__data-title`, {origin: 'left'});
 sr.reveal(`.contact__data-info`, {origin: 'right'});
